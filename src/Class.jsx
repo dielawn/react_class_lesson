@@ -64,7 +64,7 @@ export default class ClassInput extends Component {
             value={this.state.inputVal}
             onChange={this.handleInputChange}
           />
-          <button type="button" onClick={this.handleSubmit}>Submit</button>
+          <button type="button" onClick={this.handleSubmit}>Re-Submit</button>
         </div>
       );
     } else {
