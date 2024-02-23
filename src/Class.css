@@ -1,0 +1,37 @@
+.listItem {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: flex-end;
+    justify-content: space-around;
+    border-bottom: solid whitesmoke 1px;
+
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+  
+}
+
+.listDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    max-width: 500px;   
+}
+
+.editDeleteBtn {
+    height: 50px;
+    width: 75px;
+    margin: 0 5px 0 0;
+    position: relative;
+    left: 100%;
+}
+
+.todoTxt {
+    position: relative;
+    min-width: 200px;
+}
